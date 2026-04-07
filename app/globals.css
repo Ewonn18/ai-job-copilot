@@ -1,8 +1,14 @@
 @import "tailwindcss";
+@custom-variant dark (&:where(.dark, .dark *));
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: #f8fafc;
+  --foreground: #0f172a;
+}
+
+.dark {
+  --background: #0b1220;
+  --foreground: #e2e8f0;
 }
 
 @theme inline {
@@ -12,15 +18,64 @@
   --font-mono: var(--font-geist-mono);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
-
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-geist-sans), sans-serif;
+  background-image:
+    radial-gradient(
+      circle at 0% 0%,
+      rgba(148, 163, 184, 0.1) 0,
+      transparent 45%
+    ),
+    radial-gradient(
+      circle at 100% 0%,
+      rgba(125, 211, 252, 0.12) 0,
+      transparent 35%
+    ),
+    linear-gradient(180deg, #f8fafc 0%, #f1f5f9 100%);
+}
+
+.dark body {
+  background-image:
+    radial-gradient(
+      circle at 0% 0%,
+      rgba(56, 189, 248, 0.08) 0,
+      transparent 42%
+    ),
+    radial-gradient(
+      circle at 100% 0%,
+      rgba(148, 163, 184, 0.09) 0,
+      transparent 36%
+    ),
+    linear-gradient(180deg, #0b1220 0%, #0f172a 55%, #111827 100%);
+}
+
+::selection {
+  background: #0f172a;
+  color: #f8fafc;
+}
+
+.dark ::selection {
+  background: #cbd5e1;
+  color: #0f172a;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+@keyframes fade-in-up {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fade-in {
+  animation: fade-in-up 300ms ease-out both;
 }
