@@ -14,8 +14,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "AI Job Copilot",
-  description: "AI-powered job application platform",
+  title: "HireFlow AI",
+  description: "Professional AI-powered job application platform",
 };
 
 const themeInitScript = `(() => {

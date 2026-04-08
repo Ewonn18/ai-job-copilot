@@ -9,10 +9,11 @@ export default function Footer() {
         <div className="flex flex-col gap-8 sm:flex-row sm:items-start sm:justify-between">
           <div className="max-w-sm">
             <p className="text-lg font-semibold tracking-tight text-slate-900 dark:text-slate-100">
-              AI Job Copilot
+              HireFlow AI
             </p>
             <p className="mt-2 text-sm leading-6 text-slate-600 dark:text-slate-300">
-              Helping you find better opportunities and apply with confidence.
+              Helping professionals discover better opportunities and apply with
+              confidence.
             </p>
           </div>
 
@@ -51,7 +52,7 @@ export default function Footer() {
 
         <div className="mt-8 border-t border-slate-200 pt-5 dark:border-slate-800">
           <p className="text-xs text-slate-500 dark:text-slate-400">
-            © {year} AI Job Copilot. All rights reserved.
+            © {year} HireFlow AI. All rights reserved.
           </p>
         </div>
       </div>

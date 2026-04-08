@@ -5,11 +5,11 @@ export default function Hero() {
     <section className="grid items-center gap-10 rounded-3xl border border-slate-200/80 bg-gradient-to-b from-white to-slate-50/60 p-7 shadow-[0_14px_34px_rgba(15,23,42,0.08)] transition-all duration-300 dark:border-slate-700 dark:from-slate-900/90 dark:to-slate-900/60 dark:shadow-[0_20px_44px_rgba(2,6,23,0.45)] sm:p-10 lg:grid-cols-2 lg:gap-14 lg:p-12">
       <div className="max-w-2xl">
         <span className="inline-flex items-center rounded-full border border-slate-200 bg-white px-3.5 py-1 text-xs font-semibold tracking-[0.08em] text-slate-700 shadow-sm dark:border-slate-700 dark:bg-slate-900 dark:text-slate-300">
-          AI-Powered Job Search
+          HireFlow AI Platform
         </span>
 
         <h1 className="mt-6 text-4xl font-bold tracking-tight text-slate-900 dark:text-white sm:text-5xl lg:text-[3.55rem] lg:leading-[1.04]">
-          Land Your Dream Job Faster with AI
+          Land Your Next Role Faster with HireFlow AI
         </h1>
 
         <p className="mt-6 max-w-xl text-base leading-7 text-slate-600 dark:text-slate-300 sm:text-lg sm:leading-8">

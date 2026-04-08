@@ -101,7 +101,7 @@ export default function Navbar() {
             className="h-2.5 w-2.5 rounded-full bg-slate-900 shadow-[0_0_0_4px_rgba(15,23,42,0.08)] dark:bg-sky-300 dark:shadow-[0_0_0_4px_rgba(125,211,252,0.15)]"
             aria-hidden="true"
           />
-          AI Job Copilot
+          HireFlow AI
         </Link>
 
         <nav

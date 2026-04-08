@@ -24,7 +24,7 @@ export default function Home() {
             About
           </h2>
           <p className="mt-4 max-w-2xl text-base leading-7 text-slate-600 dark:text-slate-300 sm:text-lg sm:leading-8">
-            AI Job Copilot helps job seekers move faster while keeping every
+            HireFlow AI helps job seekers move faster while keeping every
             application intentional and personalized.
           </p>
         </section>

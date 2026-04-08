@@ -1,6 +1,6 @@
-# 🚀 AI Job Copilot
+# 🚀 HireFlow AI
 
-AI-powered job application assistant that helps users optimize resumes, generate cover letters, and track job applications — all in one platform.
+HireFlow AI is an AI-powered job application assistant that helps users optimize resumes, generate cover letters, and track job applications in one professional workflow.
 
 ---
 
@@ -57,6 +57,6 @@ AI-powered job application assistant that helps users optimize resumes, generate
 1. Clone the repo:
 
 ```bash
-git clone https://github.com/Ewonn18/ai-job-copilot.git
-cd ai-job-copilot
+git clone https://github.com/Ewonn18/hireflow-ai.git
+cd hireflow-ai
 ```
